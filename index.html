@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=m, initial-scale=1.0" />
+    <title>Portfolio website - Avinash</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/526168ba5c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <!--image can be added here with img-->
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contacts</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="closemenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Student</p>
+          <h1>
+            Hi , I'm<span
+              ><br />
+              Avinash R</span
+            >
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------about-------------------------------------->
+    <div id="about">
+      <div id="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Untitled design (3).png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              This is Avinash R💎 pursuing my undergraduation, who is engrossed
+              in technology🎧, programming 👩‍💻 and especially gadgets💻.I just ❤
+              crypto and Decentralization of the internet made possible by the
+              WEB3.
+            </p>
+            <p>
+              I'm an computer science student , so basically my interset are web
+              Designing , full stack development , cryptos , NFTs , share market
+              , Trading , Buisness analysis and etc... These are my areas of
+              intrest.
+            </p>
+            <p>
+              I regard myself to be a very contented, ready for a new challenge,
+              especially when it comes to programming. People consider me to be
+              a social, temperamental person who doesn't hesitate in giving my
+              opinion for what I think and believe in, honest and respectfully
+              .Feel free to connect me .
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing web prototypes</li>
+                <li>
+                  <span>Web Development</span><br />Designing interactive
+                  websites
+                </li>
+                <li>
+                  <span>App Development</span><br />Developing mobile
+                  applications
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>B-Tech</span><br />Information Technology --- 2021-2025
+                </li>
+                <li>
+                  <span>Schooling</span><br />Nsn Memorial School --- 2008-2020
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Learnafy</span><br />
+                  Graphic Designing
+                </li>
+                <li>
+                  <span>ManipalNet</span><br />Logo Designing and social media
+                  marketing
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------------------------Services---------------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Web Design</h2>
+            <p>
+              Designing interactive website using html , css , javascript ,
+              react js , python , node js and other frameworks. The website are
+              made sure that it works completly based on the clients need and
+              user interfaces are made attractive
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-users"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Creating prototypes for attractive website and applications . The
+              design for the applications is mainly Made in the Figma software .
+              The design is made such that both the user and the clients are
+              satisfied.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-chart-line"></i>
+            <h2>Buisness Analysis</h2>
+            <p>
+              This work mainly focuses on the development of a client Buisness.
+              The overall development idea is given and the marketing strategy
+              and analysis is done . The main work is develop the clients
+              Buisness using our help and strategies.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------------portfolio----------------------------------------- ------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Social media app</h3>
+              <p>This is a dummy application .</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>voting app</h3>
+              <p>This is a dummy application</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Donation app</h3>
+              <p>This is a dummy application</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!--------------------------------------contact------------------------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelopes-bulk"></i>avinashrj2003@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone-volume"></i>9597001732</p>
+            <div class="social-icons">
+              <a href="https://linkedin.com/in/avinash-rj"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            <a href="downloads\Avinash r.png" download class="btn btn2"
+              >Download CV</a
+            >
+            <!--------------for downloding a file -->
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright @ Avinash , Made by
+          <i class="fa-solid fa-heart"></i> R.Avinash (student)
+        </p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <!--side bar transition in mobile view-->
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyL0jrLBfGpn9u7qCVngWqf8SZtzkDf08uJue5WShqpLcqbjxTKStTOZDZzBRajxHRN/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
